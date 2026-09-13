@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pro Network & CCTV Planner - FINAL</title>
+<style>
+  * { box-sizing: border-box; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
+  html, body { margin: 0; padding: 0; height: 100%; overflow: hidden; background: #1e1e1e; }
+
+  .app { display: flex; flex-direction: column; height: 100vh; }
+
+  /* TOP BAR */
+  .topbar {
+    background: #2d2d30; color: #ddd; padding: 8px 14px;
+    display: flex; align-items: center; gap: 8px; flex-wrap: wrap;
+    border-bottom: 1px solid #444; z-index: 10;
+  }
+  .topbar h1 { font-size: 14px; margin: 0 14px 0 0; color: #fff; font-weight: 600; white-space: nowrap; }
+  .divider { width: 1px; height: 22px; background: #555; margin: 0 4px; }
+
+  button {
+    background: #3c3c40; color: #ddd; border: 1px solid #555; border-radius: 4px;
+    padding: 6px 10px; font-size: 12px; cursor: pointer; display: inline-flex;
+    align-items: center; gap: 5px; font-weight: 500; transition: 0.15s;
+  }
+  button:hover:not(:disabled) { background: #4a4a4f; border-color: #777; }
+  button:disabled { opacity: 0.35; cursor: not-allowed; }
+  button.active { background: #0d6efd; border-color: #0d6efd; color: #fff; }
