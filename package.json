@@ -3,6 +3,8 @@
   "version": "1.0.0",
   "description": "Pro Network & CCTV Planner - Desktop App",
   "main": "main.js",
+  "author": "Isuru Senavirathne <your-email@example.com>",
+  "license": "MIT",
   "scripts": {
     "start": "electron .",
     "build": "electron-builder --win"
