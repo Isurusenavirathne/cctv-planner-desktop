@@ -15,8 +15,7 @@
     "appId": "com.yourname.cctvplanner",
     "productName": "CCTV Network Planner",
     "win": {
-      "target": ["nsis", "portable"],
-      "icon": "build/icon.ico"
+      "target": ["nsis", "portable"]
     },
     "nsis": {
       "oneClick": false,
